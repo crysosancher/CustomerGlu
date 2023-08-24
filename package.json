@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "node-telegram-bot-api": "^0.61.0",
     "os": "^0.1.2",
-    "ping": "^0.4.4"
+    "ping": "^0.4.4",
+    "ps-node": "^0.1.6"
   }
 }
