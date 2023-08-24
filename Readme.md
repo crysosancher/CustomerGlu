@@ -1,6 +1,4 @@
-Certainly! Here's the information provided earlier formatted in Markdown:
 
----
 
 ## Telegram Bot Assignment
 
