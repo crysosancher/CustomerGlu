@@ -55,7 +55,7 @@ Deploy your Node.js application to a server where it can run continuously.
    - Implement a command to retrieve a list of running processes using child processes or system commands.
 
 6. **Unit Tests:**
-   - Write unit tests for all your functions using a testing library like `Mocha` and `Chai`.
+   - Write unit tests for all your functions using a testing library like `Mocha`,`Jest` and `Chai`.
 
 7. **Bonus Features (Optional):**
    - If you choose to implement the bonus features, integrate the necessary APIs for executing commands on the server and sending notifications via call or SMS.
