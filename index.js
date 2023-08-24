@@ -75,6 +75,13 @@ setInterval(() => {
 // Handle other messages and commands
 bot.on('message', (msg) => {
   // Handle other messages if needed
+	//msg is not command
+	const chatId = msg.chat.id;
+	console.log(msg.text.includes('/stats'));
+	if(!(msg.text.includes('/stats') || msg.text.includes('/processes'))){
+	bot.sendMessage(chatId, 'The command is not supported,try with /stats or /processes');
+	}
+	
 });
 
 console.log('Bot is running...');
